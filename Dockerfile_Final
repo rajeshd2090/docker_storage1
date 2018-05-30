@@ -1,0 +1,3 @@
+FROM rajeshd2090/storage_base_image:latest
+CMD /app/Hello.sh
+
