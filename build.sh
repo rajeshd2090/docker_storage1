@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # build base docker image first
 docker build -t rajeshd2090/storage_base_image:latest -f Dockerfile_Base .
 #Build final image which inturn uses base image.
